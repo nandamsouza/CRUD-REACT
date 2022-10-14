@@ -1,0 +1,63 @@
+.navbar{
+    width: 100%;
+    height: 62px;
+    background-color: #314259;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar button{
+    padding: 0 0.5em;
+}
+.navbar h1{
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+.navbar ion-icon{
+    color: white;
+    font-size: xx-large;
+}
+.headerMenu{
+    background-color:#0C1726;
+    color: white;
+}
+.icon{
+    background-color:#0C1726;
+    color: white; 
+}
+.menuBody{
+    background-color: #7c92a633;
+    padding: 0%;
+}
+.navbar ul{
+    list-style: none;
+    font-weight: bold;
+    text-align: left;
+    padding: 0%;
+}
+.menu{
+    width: 250px;
+}
+.navbar li{
+    margin: 0%;
+    cursor: pointer;
+    border-bottom: 1px solid #4b51589b;
+}
+.navbar li:hover{
+    background-color: #3142591f;
+}
+.navbar a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li ion-icon{
+    color: #0C1726;
+    position: absolute;
+    margin:auto;
+}

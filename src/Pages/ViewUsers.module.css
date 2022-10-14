@@ -1,0 +1,43 @@
+.container{
+    width: 550px;
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.container h1{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3% 0;
+}
+.card{
+    height: 300px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.158);
+}
+.container table{
+    overflow-y: scroll;
+    text-align: center;
+}
+.container ul ion-icon{
+    font-size:large;
+}
+#ionicon{
+    color: white;
+    padding: 5px 0;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: #587daf;
+    margin: auto;
+    font-size: xx-large;
+}
+.btnTrash{
+    position: relative;
+    background-color: white;
+    margin: 0 0.5em;
+    border: none;
+}
+.btnTrash:hover{
+    background-color: rgb(220, 48, 48);
+    border: 1px solid rgb(220, 48, 48);
+    border-radius: 5px;
+    transition: .5s;
+}

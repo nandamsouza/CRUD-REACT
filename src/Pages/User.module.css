@@ -1,0 +1,35 @@
+.container{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container h1{
+    margin: 3% 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container ion-icon{
+    display: block;
+    padding:5px 0;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    font-size: xx-large;
+    color: white;
+    background-color:#587daf;
+}
+
+.container input{
+    margin-bottom: 20px;
+}
+.cardBody{
+    margin: auto;
+}
+.card{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.157);
+}
+.container button{
+  width: 150px;
+  margin: 0 .5rem ;
+}
+
