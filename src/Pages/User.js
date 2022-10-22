@@ -10,7 +10,7 @@ export default function User(){
     const salve = async() => {
         Swal.showLoading()
        try {
-           instance.post('/user',{
+           instance.post('/users',{
              name,
              email
            }).then(()=>{

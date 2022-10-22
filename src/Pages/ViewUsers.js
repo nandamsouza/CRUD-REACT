@@ -6,7 +6,7 @@ import instance from '../Components/http';
 export default function ViewUsers() {
 
     const [user, setUser] = useState();
-
+    
     useEffect(() => {
 
        getList();
@@ -18,7 +18,7 @@ export default function ViewUsers() {
             setUser(res.data);
         })
     };
-
+   
     function deleteUser(id){
         instance.delete(`/users/${id}`).then((res)=>{
             console.log('ok')
@@ -27,7 +27,7 @@ export default function ViewUsers() {
         })
         getList();
     }
-
+    
     return (
         <div className={styles.container}>
             <h1>View Users</h1>
@@ -52,7 +52,9 @@ export default function ViewUsers() {
                                         <th>{i.name}</th>
                                         <th>{i.email}</th>
                                         <th>
-                                            <Modal></Modal>
+                                            <span>
+                                             <Modal ID={i.id}></Modal>
+                                            </span>
                                             <button className={styles.btnTrash}
                                              onClick={()=> deleteUser(i.id)}>
                                                 <ion-icon name="trash-sharp"></ion-icon>
