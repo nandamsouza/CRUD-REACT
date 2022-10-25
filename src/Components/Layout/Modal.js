@@ -16,15 +16,10 @@ export default function Modal(props){
         setEmail(e.target.value);
     }
    
-    function putUser(num){
-       console.log(num)
-       const 
-    }
+   
     return(    
         <>
-            <button type="button" className={`${styles.btnModal}`} data-bs-toggle="modal" data-bs-target="#staticBackdrop"
-             onClick={()=>putUser(props.ID)}
-            >
+            <button type="button" className={`${styles.btnModal}`} data-bs-toggle="modal" data-bs-target="#staticBackdrop">
               <ion-icon name="pencil-sharp"></ion-icon>
             </button>
             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabIndex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
