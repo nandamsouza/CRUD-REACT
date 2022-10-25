@@ -53,7 +53,7 @@ export default function ViewUsers() {
                                         <th>{i.email}</th>
                                         <th>
                                             <span>
-                                             <Modal ID={i.id}></Modal>
+                                             <Modal></Modal>
                                             </span>
                                             <button className={styles.btnTrash}
                                              onClick={()=> deleteUser(i.id)}>
