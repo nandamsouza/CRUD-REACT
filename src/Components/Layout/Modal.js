@@ -1,6 +1,5 @@
 import styles from '../Layout/Modal.module.css';
 import {  useState } from 'react';
-import instance from '../http';
 
 export default function Modal(props){
     const [name, setName] = useState('');
@@ -41,7 +40,6 @@ export default function Modal(props){
                        </div>
                       <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary" onClick={()=>{putUser(props.ID)}}>Understood</button>
                        </div>
                     </div>
                 </div>
